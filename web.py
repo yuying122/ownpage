@@ -12,19 +12,19 @@ def index():
 
 
 @app.route("/me")
-def homepage():
+def me():
     return render_template("me.html")
 
 @app.route("/hollandcode")
-def homepage():
+def hollandcode():
     return render_template("hollandcode.html")  
     
 @app.route("/work")
-def homepage():
+def work():
     return render_template("work.html")
 
 @app.route("/webpage")
-def homepage():
+def webpage():
     return render_template("webpage.html")          
 
 
